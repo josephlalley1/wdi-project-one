@@ -1,0 +1,29 @@
+.entryLogo {
+  display: inline-block;
+  margin: auto;
+  padding: 250px;
+}
+
+.machine1 {
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.machine1:not(:hover) {
+  opacity: .5;
+}
+
+.machine2:not(:hover) {
+  opacity: .5;
+}
+
+
+.machine2 {
+  display: inline-block;
+}
+
+.hideEntryContent {
+  margin-left: auto;
+  margin-right: auto;
+}

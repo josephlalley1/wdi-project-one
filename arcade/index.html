@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/entry.css">
+    <link rel="stylesheet" href="./css/mole.css">
+    <link rel="stylesheet" href="./css/snake.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title>PROJECT 1</title>
+  </head>
+
+  <body onload="initGame()" onkeydown="enterKey(event)">
+    <audio src="" id="audio"></audio>
+    <div class="hideEntryContent">
+      <img src="./images/wammachine.png" alt="arcademachine1" class="machine1" id="wamButton">
+      <img src="./images/logo.gif" alt="logo" class="entryLogo">
+      <img src="./images/snakemachine.png" alt="arcademachine2" class="machine2" id="snakeButton">
+    </div>
+
+    <div class="hideSnakeContent">
+      <img src="./images/snake.png" alt="snake" class="snakelogo">
+      <button id="snakeStartButton">Start!</button>
+      <h1>Score : <span class="snakeScore">0</span></h1>
+      <div id="board"></div>
+    </div>
+
+    <div class="hideMoleContent">
+      <img src="./images/moleimages/logo.png" alt="whack-a-mole" class="wamlogo">
+      <button id="moleStartButton">Start!</button>
+      <h1>Score : <span class="moleScore">0</span></h1>
+
+      <div class="game">
+        <div class="hole hole1">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole2">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole3">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole4">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole5">
+          <div class="mole"></div>
+        </div>
+        <div class="hole hole6">
+          <div class="mole"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/entry.js" charset="utf-8"></script>
+  <script src="./js/snake.js" charset="utf-8"></script>
+  <script src="./js/mole.js" charset="utf-8"></script>
+</html>

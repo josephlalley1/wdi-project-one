@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: black;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+span {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 0;
+  font-family: 'Anton', sans-serif;
+}
+
+button {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5e64b;
+  border-radius: 3px;
+  border: 1px solid #b84c37;
+  color: #b84c37;
+  font-weight: bold;
+}
+
+.snakelogo {
+  display: block;
+  margin-left: 457px;
+  margin-top: 70px;
+}
+
+.line {
+  width: 16em;
+  border-right: 2px solid grey;
+  font-size: 150%;
+  margin: auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  margin-top: 230px;
+}
+
+#board {
+  width: calc(26 * 24px);
+  margin: auto;
+}
+
+#board div {
+  background-color: black;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  float: left;
+  width: 24px;
+  height: 24px;
+}
+
+#board .snake {
+  background-color: #20C20E;
+  border: transparent;
+  border-radius: 5px;
+}
+
+#board .apple {
+  background-color: red;
+}
