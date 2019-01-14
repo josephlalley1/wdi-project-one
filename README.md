@@ -52,6 +52,23 @@ Extra Whack-A-Mole Game:
 
 ---
 
+### Code Wins
+
+This snippet of code was a win for me. I thought it was a cool addition to the site and allowed me to partner DOM manipulation with the use of Animate.css, as well as playing with the the setTimeout to time the entry and exit of the content correctly.
+
+```
+function showSnakeContent() {
+  audio.src = './sounds/powerup.wav';
+  audio.play();
+  entryContent.classList.add('bounceOut');
+  setTimeout(function() {
+    entryContent.style.display = 'none';
+    snakeContent.style.display = 'block';
+  }, 700);
+}
+```
+---
+
 ### Challenges and Problems
 
 - A big challenge was using JavaScript DOM manipulation to make it look like I had a front page, but everything was just on one page, and required no page switches.
